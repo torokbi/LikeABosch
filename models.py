@@ -33,6 +33,9 @@ with open("./SW Challenge 2022 - dataset/PSA_ADAS_W3_FC_2022-09-01_14-49_0054.MF
     next(csvfile)
     for row in csvfile:
         car = Car(row[0], row[1], row[2], row[3], row[4], row[5], row[6])
+<<<<<<< HEAD
+        cars.append(car)
+=======
         cars.append(car)
 with open("./SW Challenge 2022 - dataset/PSA_ADAS_W3_FC_2022-09-01_15-03_0057.MF4/Group_416.csv") as file416:
     csvfile = csv.reader(file416)
@@ -108,3 +111,4 @@ with open("./SW Challenge 2022 - dataset/PSA_ADAS_W3_FC_2022-09-01_15-17_0060.MF
     for row in csvfile:
         distance_data = Distace(row[0], row[1], row[2])
         distance.append(distance_data)
+>>>>>>> 5f0b3b0b27e3c3fe5247b6110422c7b4e61f4da3
